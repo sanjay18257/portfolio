@@ -1,0 +1,22 @@
+.home-desc
+{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  word-spacing: 5%;
+  line-height: 120%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home_img{
+  background-image: url("../assets/IMG_20230502_193216_862.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  box-shadow: inset 0 0 0 9px rgb(225 225 225 / 20%);
+  justify-self: center;
+  order: 1; 
+  width: 300px;
+  height: 300px;
+  animation: profimg_animation 8s ease-in-out infinite 1s;
+}
